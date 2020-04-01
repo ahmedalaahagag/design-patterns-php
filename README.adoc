@@ -1,29 +1,19 @@
-= _Decorator Pattern_
+= Design Patterns
 
-*When to use Decorator Pattern :*
+*What are design patterns:*
+Design patterns can speed up the development process by providing tested, proven development paradigms. Effective software design requires considering issues that may not become visible until later in the implementation. Reusing design patterns helps to prevent subtle issues that can cause major problems and improves code readability for coders and architects familiar with the patterns.
+Often, people only understand how to apply certain software design techniques to certain problems. These techniques are difficult to apply to a broader range of problems. Design patterns provide general solutions, documented in a format that doesn't require specifics tied to a particular problem.
+In addition, patterns allow developers to communicate using well-known, well understood names for software interactions. Common design patterns can be improved over time, making them more robust than ad-hoc designs.
 
-- When you need to add behaviour in run time
-- When you have a lot of sub classes that dose the same functions but with different values
+*Types of Design Patterns :*
 
-*UML :*
+1- Creational design patterns
 
-image::uml.png[uml.png]
+2- Structural design patterns
 
-*About the example:*
+- https://github.com/ahmedalaahagag/design-patterns-php/tree/master/Decorator[Decorator]
 
-- Let's imagine that we have a pizza store that allows you to add toppings to your pizza.
+3- Behavioral design patterns
 
-*Problems of this approach:*
-
-1- there would many ways to impalement every possible combination of pizza.
-
-2- there would be too many sub classes with and without toppings.
-
-3- if a topping price change, or you would try to add more description you will need
-to go through every class.
-
-*Notes about this pattern:*
-
-- Decorator base class is of type "BaseComponentInterface"
-- Each Decorator will have the same functions of "BaseComponentInterface"
-
+*About*
+This repo is developed mainly using PHP
