@@ -6,7 +6,8 @@
 - When you have a lot of sub classes that dose the same functions but with different values
 
 *UML :*
-image::file.png[file.png]
+
+image::uml.png[uml.png]
 
 *About the example:*
 
