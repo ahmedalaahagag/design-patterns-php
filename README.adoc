@@ -20,3 +20,4 @@ In addition, patterns allow developers to communicate using well-known, well und
 *About*
 
 This repo is developed mainly using PHP
+Always use composer install

@@ -1,8 +1,7 @@
 {
   "autoload": {
     "psr-4": {
-      "Decorators\\": "Decorators/",
-      "Base\\": "Base/"
+      "Decorators\\": "Decorators/"
     }
   }
 }
