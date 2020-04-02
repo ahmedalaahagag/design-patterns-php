@@ -27,3 +27,6 @@ to go through every class.
 - Decorator base class is of type "BaseComponentInterface"
 - Each Decorator will have the same functions of "BaseComponentInterface"
 
+*Useful Readings*
+
+https://sourcemaking.com/design_patterns/decorator
