@@ -17,6 +17,10 @@ In addition, patterns allow developers to communicate using well-known, well und
 
 3- Behavioral design patterns
 
+- https://github.com/ahmedalaahagag/design-patterns-php/tree/master/Observer[Observer]
+
 *About*
 
 This repo is developed mainly using PHP
+
+Always use composer install

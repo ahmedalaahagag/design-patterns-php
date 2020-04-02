@@ -13,7 +13,7 @@ image::uml.png[uml.png]
 
 - Let's imagine that we have a pizza store that allows you to add toppings to your pizza.
 
-*Problems of this approach:*
+*Problem of inheritance approach:*
 
 1- there would many ways to impalement every possible combination of pizza.
 
@@ -27,3 +27,6 @@ to go through every class.
 - Decorator base class is of type "BaseComponentInterface"
 - Each Decorator will have the same functions of "BaseComponentInterface"
 
+*Useful Readings*
+
+https://sourcemaking.com/design_patterns/decorator

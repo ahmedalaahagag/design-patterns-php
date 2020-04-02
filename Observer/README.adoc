@@ -31,3 +31,7 @@ display.
 - Otherwise you can have an "ObservableInterface" inside the "Observer" so that you can access the data
 - Push Push Vs Poll Pull approch
 
+*Useful Readings*
+
+https://sourcemaking.com/design_patterns/observer
+
