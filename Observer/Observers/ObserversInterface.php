@@ -4,11 +4,11 @@
 namespace Observers;
 
 
-use Observables\ObservableInterface;
+use Observables\FlyInterface;
 
 interface ObserversInterface
 {
-    public function __construct(string $deviceId, ObservableInterface $observable);
+    public function __construct(string $deviceId, FlyInterface $observable);
 
     public function update() :void;
 }

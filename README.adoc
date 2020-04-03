@@ -18,6 +18,7 @@ In addition, patterns allow developers to communicate using well-known, well und
 3- Behavioral design patterns
 
 - https://github.com/ahmedalaahagag/design-patterns-php/tree/master/Observer[Observer]
+- https://github.com/ahmedalaahagag/design-patterns-php/tree/master/Strategy[Strategy]
 
 *About*
 

@@ -6,7 +6,7 @@ namespace Observables;
 
 use Observers\ObserversInterface;
 
-class WeatherStation implements ObservableInterface
+class WeatherStation implements FlyInterface
 {
     private array $devicesList;
     public string $weatherData;

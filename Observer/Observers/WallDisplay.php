@@ -4,15 +4,15 @@
 namespace Observers;
 
 
-use Observables\ObservableInterface;
+use Observables\FlyInterface;
 
 class WallDisplay implements ObserversInterface
 {
-    private ObservableInterface $weatherStation;
+    private FlyInterface $weatherStation;
     private string $weatherData;
     private string $deviceId;
 
-    public function __construct(string $deviceId, ObservableInterface $weatherStation)
+    public function __construct(string $deviceId, FlyInterface $weatherStation)
     {
         $this->deviceId = $deviceId;
         $this->weatherStation = $weatherStation;
