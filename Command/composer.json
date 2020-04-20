@@ -1,0 +1,10 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Commands\\": "Commands/",
+      "Invoker\\": "Invoker/",
+      "Clients\\": "Clients/"
+
+    }
+  }
+}

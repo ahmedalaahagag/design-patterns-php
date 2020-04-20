@@ -19,6 +19,7 @@ In addition, patterns allow developers to communicate using well-known, well und
 
 - https://github.com/ahmedalaahagag/design-patterns-php/tree/master/Observer[Observer]
 - https://github.com/ahmedalaahagag/design-patterns-php/tree/master/Strategy[Strategy]
+- https://github.com/ahmedalaahagag/design-patterns-php/tree/master/Command[Command]
 
 *About*
 
