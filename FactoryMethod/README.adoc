@@ -1,0 +1,37 @@
+= _Factory Method Pattern_
+
+*When to use Factory Method Pattern :*
+
+- When you don't know the type of object that you are going to be needing when creating it for example.type is random or have a complex logic when creating the obejct
+- The logic for creating a type of objects should be encapsulated and hidden
+- The logic for creating a type of objects is duplicate
+
+*UML :*
+
+image::uml.png[uml.png]
+
+*About the example:*
+
+- Let's imagine that we have a program that should simulates a farm this farm should have 3 types of animals they should be
+randomly disrupted.
+
+*Problems with normal approach:*
+
+1- Create animal logic would be the responsibility of the app class.
+
+2- Create animal logic would be duplicated every time you need to create an animal.
+
+3- There would be a lot of duplicated functions and not very robust code.
+
+*Notes about this pattern:*
+
+- Factories always returns an object.
+- Think of `new` key word as not harmful.
+- You can have multiple types of factories depending on your business needs.
+- Each Factory can has it's own logic when creating a new animal for example you can have a factory which knows about the animals which were created and create balanced world knowing which animal exists less
+- Utilize polymorphism when creating the object by passing new and different variables which can effect thr returned object.
+
+*Useful Readings*
+
+https://sourcemaking.com/design_patterns/factory_method
+

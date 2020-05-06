@@ -11,6 +11,8 @@ In addition, patterns allow developers to communicate using well-known, well und
 
 1- Creational design patterns
 
+- https://github.com/ahmedalaahagag/design-patterns-php/tree/master/FactoryMethod[Factory Method]
+
 2- Structural design patterns
 
 - https://github.com/ahmedalaahagag/design-patterns-php/tree/master/Decorator[Decorator]
